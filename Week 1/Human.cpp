@@ -1,10 +1,14 @@
 #include "Human.h"
 
-void Human::setAge(int a) {
-    age = a;
-}
+namespace seneca {
 
-int Human::getAge()
-{
-    return age;
+    void Human::setAge(int a) {
+        age = a;
+    }
+
+    int Human::getAge()
+    {
+        return age;
+    }
+
 }

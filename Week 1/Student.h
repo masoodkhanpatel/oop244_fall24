@@ -1,5 +1,8 @@
 #include "Human.h"
 
-class Student : public Human {
+namespace seneca{
 
-};
+	class Student : public Human {
+
+	};
+}
