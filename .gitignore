@@ -1,0 +1,11 @@
+# Ignore all files
+*
+
+# But don't ignore these directories (so we can unignore files inside them)
+!*/
+
+# Unignore
+!*.h
+!*.cpp
+!*.txt
+!*.gitignore
