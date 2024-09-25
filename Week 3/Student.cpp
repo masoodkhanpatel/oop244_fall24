@@ -11,7 +11,6 @@ void Student::display() const {
         cout.setf(ios::fixed);
         cout.precision(2);
         for (int i = 0; i < ng; i++) {
-            
             cout << setw(6) << grade[i] << endl;
         }
         cout.unsetf(ios::fixed);
