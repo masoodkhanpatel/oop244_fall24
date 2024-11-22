@@ -1,0 +1,30 @@
+1. Work differently on different argument types
+Being specific about the type of function arguments
+int, float, double, byte
+Ad-Hoc Polymorphism
+
+2. Work uniformly on a range of argument types
+Being general about the type of function arguments
+Universal Polymorphism
+{int, double, float, byte}
+{char, short char}
+
+
+
+
+
+Ad-Hoc Polymorphism
+- Coercion (tpye casting, implicit conversion)
+- Overloading polymorphism (function overloading, operator overloading)
+
+Universal Polymorphism
+- Inclusion polymorphism (virtual function, interface, abstract class)
+- Parametric polymorphism (templates)
+
+
+
+
+Hello,abc,123,456
+
+
+cin.getline(s,100, ',');
